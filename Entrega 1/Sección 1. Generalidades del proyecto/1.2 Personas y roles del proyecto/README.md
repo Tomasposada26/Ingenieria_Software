@@ -1,0 +1,9 @@
+| Persona | Nombre | Descripción del Rol | 
+| :--- | :--- | :--- | 
+| **Scrum Master** | Tomas Posada | El Scrum Master es la persona que facilita el trabajo del equipo en Scrum, asegurando que se sigan las prácticas ágiles, eliminando obstáculos y fomentando la colaboración para que el equipo entregue valor de forma eficiente. | 
+| **Product Owner** | Juan Camilo | Es quien define y prioriza las funcionalidades del producto, gestiona el `backlog` y asegura que el proyecto se alinee con las necesidades del negocio. | 
+| **Líder Técnico** | Santiago Sabogal | Es la persona responsable de guiar al equipo en las decisiones técnicas, definir estándares de desarrollo, revisar código y asegurar la calidad de las soluciones, sirviendo de puente entre la parte técnica y la gestión del proyecto. | 
+| **Integrantes del Equipo** |  |  | 
+| **Desarrollador Backend** | Miguel Ángel García | Responsable de la lógica del servidor, la gestión de bases de datos y la integración con la API de Instagram. Encargado de construir y mantener el lado del servidor de la aplicación, manejar la comunicación con el `frontend`, procesar los datos, y asegurar la escalabilidad y seguridad del sistema. | 
+| **Desarrollador Frontend** | Juan José Escobar | Encargado de la interfaz de usuario, la experiencia de usuario (UX/UI) y la visualización de los datos. Su rol es traducir el diseño visual y la lógica del negocio en una experiencia interactiva para el usuario, asegurando la fluidez y el correcto funcionamiento en el navegador. | 
+| **Tester** | Juan José Restrepo | Responsable de la calidad del software, la planificación y ejecución de pruebas para asegurar que todas las funcionalidades operen correctamente. Su trabajo es identificar `bugs` y problemas de usabilidad, y validar que el producto final cumpla con todos los requerimientos establecidos antes de su lanzamiento. | 
