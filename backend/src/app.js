@@ -1,3 +1,4 @@
+// ...existing code...
 //prueba
 // Configuración central de la app Express
 require('dotenv').config();
@@ -66,5 +67,9 @@ app.use('/api/tendencias', tendenciaRoutes);
 // Webhook público para Instagram
 const webhookRoutes = require('./routes/webhookRoutes');
 app.use('/webhook', webhookRoutes);
+
+// Chatbot endpoint
+const chatbotRoutes = require('./routes/chatbotRoutes');
+app.use('/api/chatbot', chatbotRoutes);
 //prueba
 module.exports = app;
