@@ -1,15 +1,126 @@
 .dashboard-panel {
-  min-height: calc(100vh - 100px);
+  width: 100%;
+  height: 100%;
   background: #fff;
-  padding: 0;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
   box-sizing: border-box;
-  width: 100%;
 }
 
-.dashboard-panel h2 {
-  padding: 32px;
+.feed-filtros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 18px 0 12px 0;
+  background: #eaf6ff;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 8px;
+}
+
+.feed-filtros select {
+  padding: 6px 18px;
+  border-radius: 6px;
+  border: 1px solid #b5d6f7;
+  font-size: 16px;
+}
+
+.feed-matriz {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  padding: 32px 48px 32px 48px;
+  justify-content: center;
+  align-items: start;
+  background: #f7fafd;
+  border-radius: 0 0 18px 18px;
+  min-height: 60vh;
+}
+
+.feed-card {
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px 12px 12px;
+  box-shadow: 0 2px 12px #0002;
+  min-width: 0;
+  transition: box-shadow 0.2s;
+}
+.feed-card:hover {
+  box-shadow: 0 8px 32px #0004;
+  transform: scale(1.035);
+  z-index: 2;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.feed-img {
+  border: none;
+  border-radius: 10px;
+  width: 250px;
+  height: 364px;
+  min-width: 250px;
+  min-height: 364px;
+  max-width: 250px;
+  max-height: 364px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+  background: #f2f4f8;
+  overflow: hidden;
+}
+.feed-img img {
+  width: 250px;
+  height: 364px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}
+
+.feed-actions {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin-bottom: 8px;
+  gap: 12px;
+}
+.feed-actions .like {
+  color: #27ae60;
+  border: 2px solid #27ae60;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-weight: 500;
+  background: #eafaf1;
+}
+.feed-actions .comentario {
+  color: #8e44ad;
+  border: 2px solid #8e44ad;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-weight: 500;
+  background: #f6eafc;
+}
+.feed-actions .compartido {
+  color: #a67c52;
+  border: 2px solid #a67c52;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-weight: 500;
+  background: #f9f3ec;
+}
+
+.feed-hashtags {
+  width: 100%;
+  margin-top: 8px;
+  color: #555;
+  border: none;
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 15px;
+  background: none;
+  text-align: left;
+  word-break: break-all;
 }

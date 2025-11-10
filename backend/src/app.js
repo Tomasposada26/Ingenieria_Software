@@ -54,6 +54,8 @@ const notificacionRoutes = require('./routes/notificacionRoutes');
 const accountRoutes = require('./routes/accountRoutes');
 const tendenciaRoutes = require('./routes/tendenciaRoutes');
 
+const publicacionRoutes = require('./routes/publicacionRoutes');
+
 app.use('/api/interesados', interesadoRoutes);
 app.use('/api/usuarios', usuarioRoutes);
 app.use('/api/reglas', reglaRoutes);
@@ -63,6 +65,9 @@ app.use('/api/auth', authRoutes);
 app.use('/api/notificaciones', notificacionRoutes);
 app.use('/api/accounts', accountRoutes);
 app.use('/api/tendencias', tendenciaRoutes);
+
+// Endpoint de publicaciones simuladas
+app.use('/api/publicaciones', publicacionRoutes);
 
 // Webhook público para Instagram
 const webhookRoutes = require('./routes/webhookRoutes');
