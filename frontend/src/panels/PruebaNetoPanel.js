@@ -42,7 +42,8 @@ const PruebaNetoPanel = () => {
     setMensaje('');
 
     try {
-      const res = await fetch('http://localhost:4000/api/chatbot', {
+      const apiUrl = process.env.REACT_APP_API_URL || 'https://programacion-gdr0.onrender.com';
+      const res = await fetch(`${apiUrl}/api/chatbot`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ mensaje: userMsg, intencion })
