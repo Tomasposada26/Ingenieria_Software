@@ -1,3 +1,4 @@
+// Cambio trivial para forzar despliegue
 // Redeploy trigger: 2025-09-11
 // Cambio mínimo para limpiar historial
 // --- DEPENDENCIAS Y MODELOS ---
